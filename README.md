@@ -52,6 +52,14 @@ Clone this repository using git clone https://github.com/Patro331/sickle-cell-de
 
 Transfer learning with ResNet-50 achieves 98.57% accuracy using only 653 training images, demonstrating that pretrained ImageNet features transfer effectively to blood smear microscopy. Grad-CAM confirms the model attends to biologically meaningful regions within the circular microscope field rather than imaging artefacts or the black border. The single false negative had a confidence score of 0.472, just below the 0.5 decision threshold — lowering the threshold to 0.4 would eliminate this error at the cost of one additional false positive. The single false positive was triggered by a staining artefact, highlighting artefact detection as a key area for future preprocessing improvement. EfficientNet-B0 trains more stably than ResNet-50 on this small dataset due to its more parameter-efficient architecture, though ResNet-50 ultimately achieves superior final test performance.
 
+## Report Section 
+Final project report covering abstract, introduction, related work, dataset description, methodology, experiments, results, error analysis, ethical considerations, limitations, future work, conclusion, and references. 
+Submitted for MSB7216: Deep Learning for Health Data, May 2026.
+
+10-slide presentation deck covering problem motivation, dataset challenges, methodology, results, Grad-CAM explainability, live demo, and lessons learned. 
+Designed for a 10 to 15 minute presentation with speaker notes. 
+Submitted for MSB7216: Deep Learning for Health Data, May 2026.
+
 ## Ethical Considerations
 
 This model is a screening tool only and does not replace diagnosis by a trained clinician. All positive predictions must be confirmed by a qualified medical professional before any clinical action is taken. Both datasets were collected with documented patient consent and are freely available for research and educational use. The domain gap between Tushabe mobile-phone microscopy images and BCCD laboratory images represents a known limitation that future work should address by sourcing additional normal smear images captured under mobile-phone microscope conditions consistent with the Tushabe dataset.
