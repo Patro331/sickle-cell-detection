@@ -1,1 +1,8 @@
-
+gradio
+torch
+torchvision
+huggingface_hub
+opencv-python-headless
+matplotlib
+Pillow
+numpy
