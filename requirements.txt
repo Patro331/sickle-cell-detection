@@ -1,8 +1,12 @@
-gradio
 torch
 torchvision
+gradio
 huggingface_hub
 opencv-python-headless
 matplotlib
 Pillow
 numpy
+scikit-learn
+seaborn
+pandas
+tqdm
