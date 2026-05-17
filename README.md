@@ -2,7 +2,7 @@
 
 An explainable deep learning project for automated sickle cell disease detection using African clinical microscopy data, built as part of MSB7216: Deep Learning for Health Data at Makerere University.
 
-**Author:** Okidi Patrovas Gaabriel | 2025/HD07/26020U
+**Author:** Okidi Patrovas Gabriel | 2025/HD07/26020U
 **Institution:** Makerere University, Kampala, Uganda
 **Course:** MSB7216: Deep Learning for Health Data
 
